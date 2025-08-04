@@ -21,11 +21,11 @@ logging.basicConfig(
 # --- Environment Variables ---
 # We're now fetching all sensitive data from environment variables.
 # This makes your code more secure and flexible.
-TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-ADMIN_ID = int(os.environ.get("ADMIN_ID"))
-WEBHOOK_URL = os.environ.get("WEBHOOK_URL")
-REQUIRED_CHANNEL = os.environ.get("REQUIRED_CHANNEL")
-ASSEMBLYAI_API_KEY = os.environ.get("ASSEMBLYAI_API_KEY")
+TOKEN = os.environ.get("7790991731:AAFv2QQENqSe4rXiV7g6SFKOqeFIKmYogrA")
+ADMIN_ID = int(os.environ.get("5978150981"))
+WEBHOOK_URL = os.environ.get("probable-sybilla-wwmahe-52df4f73.koyeb.app/")
+REQUIRED_CHANNEL = os.environ.get("@guruubka_wasmada")
+ASSEMBLYAI_API_KEY = os.environ.get("894ad2705ab54e33bb011a87b658ede2")
 
 if not all([TOKEN, ADMIN_ID, WEBHOOK_URL, ASSEMBLYAI_API_KEY]):
     logging.error("One or more required environment variables are not set. The bot will not run.")
