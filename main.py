@@ -20,7 +20,7 @@ logging.basicConfig(
 
 TOKEN = "7790991731:AAFv2QQENqSe4rXiV7g6SFKOqeFIKmYogrA"
 ADMIN_ID = 5978150981
-WEBHOOK_URL = "available-elga-wwmahe-605c287a.koyeb.app/"
+WEBHOOK_URL = "probable-sybilla-wwmahe-52df4f73.koyeb.app/"
 
 REQUIRED_CHANNEL = "@guruubka_wasmada"
 
