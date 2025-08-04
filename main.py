@@ -1138,7 +1138,7 @@ def handle_stt_media_types_common(message, target_bot: telebot.TeleBot, user_id_
         return
 
     if user_id_for_settings not in in_memory_data["stt_settings"]:
-        target_bot.send_message(message.chat.id, "First choose the transcription language /lang")
+        target_bot.send_message(message.chat.id, "First choose the transcription language click or type /lang")
         return
 
     threading.Thread(
