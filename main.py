@@ -632,7 +632,7 @@ def process_bot_token(message):
                          "Now choose what your bot will do:\n"
                          "• **TTS Bot**: Converts text to audio\n"
                          "• **STT Bot**: Converts audio to text\n\n"
-                         "Choose one below:",
+                         "Choose one below When you choose, go to your bot and make sure it’s working:",
                          reply_markup=markup,
                          parse_mode="Markdown")
     except telebot.apihelper.ApiTelegramException as e:
