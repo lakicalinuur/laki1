@@ -24,7 +24,7 @@ logging.basicConfig(
 
 TOKEN = "7790991731:AAFv2QQENqSe4rXiV7g6SFKOqeFIKmYogrA"
 ADMIN_ID = 6964068910
-WEBHOOK_URL = "probable-sybilla-wwmahe-52df4f73.koyeb.app/"
+WEBHOOK_URL = "https://laki1.onrender.com"
 
 REQUIRED_CHANNEL = "@guruubka_wasmada"
 
