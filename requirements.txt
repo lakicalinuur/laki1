@@ -21,3 +21,4 @@ pyacoustid
 pymongo
 assemblyai
 ffmpeg-python
+pytube
