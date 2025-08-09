@@ -14,7 +14,7 @@ app = Flask(__name__)
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 BOT_TOKEN = '8331845686:AAEyAbX8uVzsV8P87JwEpF9eBlclb-w7sBQ'
-WEBHOOK_URL = f'https://probable-sybilla-wwmahe-52df4f73.koyeb.app/{BOT_TOKEN}'
+WEBHOOK_URL = f'https://laki1-1.onrender.com/{BOT_TOKEN}'
 bot = telebot.TeleBot(BOT_TOKEN)
 
 SUPPORTED_DOMAINS = [
