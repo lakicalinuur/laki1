@@ -13,7 +13,7 @@ import logging
 app = Flask(__name__)
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-BOT_TOKEN = '7999849691:AAFNsufKPWU9YyW_CEp7_6BF5cClX8PvR0Y'
+BOT_TOKEN = '8331845686:AAEyAbX8uVzsV8P87JwEpF9eBlclb-w7sBQ'
 WEBHOOK_URL = f'https://probable-sybilla-wwmahe-52df4f73.koyeb.app/{BOT_TOKEN}'
 bot = telebot.TeleBot(BOT_TOKEN)
 
