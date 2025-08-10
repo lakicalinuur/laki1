@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>DNS</key>
+        <dict>
+          <key>ServerAddresses</key>
+          <array>
+            <string>1.1.1.1</string>
+            <string>1.0.0.1</string>
+          </array>
+        </dict>
+        <key>PayloadDescription</key>
+        <string>Configures DNS to use Cloudflare DNS servers</string>
+        <key>PayloadDisplayName</key>
+        <string>Cloudflare DNS</string>
+        <key>PayloadIdentifier</key>
+        <string>com.yourname.dns.cloudflare</string>
+        <key>PayloadType</key>
+        <string>com.apple.dns.settings</string>
+        <key>PayloadUUID</key>
+        <string>12345678-1234-1234-1234-123456789abc</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+      </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Cloudflare DNS Profile</string>
+    <key>PayloadIdentifier</key>
+    <string>com.yourname.dnsprofile</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>abcdefab-cdef-abcd-efab-cdefabcdefab</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+  </dict>
+</plist>
