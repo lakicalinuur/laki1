@@ -41,7 +41,7 @@ tokens_collection = db["tokens"]
 # ---------------------
 
 ASSEMBLYAI_API_KEY = "894ad2705ab54e33bb011a87b658ede2"
-GEMINI_API_KEY = "AIzaSyCHrGhRKXAp3DuQGH8HLB60ggryZeUFA9E"
+GEMINI_API_KEY = "AIzaSyATp-z8cGOI9bGG5WIjvdSXA-OxMz0yA4Q"
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
 
 # In-memory data (used for quick access, sync with DB on updates)
