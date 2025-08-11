@@ -18,7 +18,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-TOKEN = "7790991731:AAF4NHGm0BJCf08JTdBaUWKzwfs82_Y9Ecw"
+TOKEN = "8331845686:AAEyAbX8uVzsV8P87JwEpF9eBlclb-w7sBQ"
 ADMIN_ID = 5978150981
 WEBHOOK_URL = "https://probable-sybilla-wwmahe-52df4f73.koyeb.app/"
 
