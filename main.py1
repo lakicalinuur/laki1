@@ -1371,13 +1371,13 @@ def delete_webhook_route():
 
 def set_bot_commands():
     commands = [
-        BotCommand("start", "Get Started"),
-        BotCommand("voice", "Change the TTS voice style"),
-        BotCommand("pitch", "Change the sound"),
-        BotCommand("rate", "Change speed"),
-        BotCommand("lang", "Set File language"),
-        BotCommand("reg", "Create your own bot"),
-        BotCommand("help", "How to use"),
+        BotCommand("start", "👋 Get Started"),
+        BotCommand("voice", "Choose a TTS different voice"),
+        BotCommand("pitch", "Change TTS voice pitch"),
+        BotCommand("rate", "Change TTS voice speed"),
+        BotCommand("lang", "Set STT File language"),
+        #BotCommand("reg", "Create your own bot"),
+        BotCommand("help", "❓Get How to use info"),
     ]
     try:
         bot.set_my_commands(commands)
