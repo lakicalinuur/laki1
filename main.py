@@ -453,7 +453,7 @@ def start_handler(message):
             "2. **Convert Audio to Text (STT):**\n"
             "   - Choose the language (by pressing `STT Lang` from Settings)\n"
             "   - Send me audio, video or file (up to 20MB)\n\n"
-            "👉 You can also add me to your groups - click https://t.me/mediatotextbot?startgroup=!"
+            "👉 You can also add me to your chats - click https://t.me/mediatotextbot?startgroup=!"
         )
         markup = InlineKeyboardMarkup(row_width=1)
         markup.add(
