@@ -22,7 +22,7 @@ logging.basicConfig(
 )
 
 TOKEN = "7790991731:AAF4NHGm0BJCf08JTdBaUWKzwfs82_Y9Ecw"
-ADMIN_ID = 6964068910
+ADMIN_ID = 5978150981
 WEBHOOK_URL = "https://probable-sybilla-wwmahe-52df4f73.koyeb.app/"
 REQUIRED_CHANNEL = "@guruubka_wasmada"
 
