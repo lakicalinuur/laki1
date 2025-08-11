@@ -1376,7 +1376,7 @@ def set_bot_commands():
         BotCommand("pitch", "Change TTS voice pitch"),
         BotCommand("rate", "Change TTS voice speed"),
         BotCommand("lang", "Set STT File language"),
-        #BotCommand("reg", "Create your own bot"),
+        BotCommand("reg", "Create your own bot"),
         BotCommand("help", "❓Get How to use info"),
     ]
     try:
