@@ -398,8 +398,8 @@ def send_subscription_message(chat_id: int):
 def create_main_reply_keyboard():
     markup = ReplyKeyboardMarkup(row_width=2, resize_keyboard=True)
     markup.add(
-        KeyboardButton("🗣️ Text to voice"),
-        KeyboardButton("✍️ Voice to text"),
+        #KeyboardButton("🗣️ Text to voice"),
+        #KeyboardButton("✍️ Voice to text"),
         KeyboardButton("⚙️ Settings"),
         KeyboardButton("❓ Help")
     )
