@@ -18,9 +18,9 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-TOKEN = "7790991731:AAFv2QQENqSe4rXiV7g6SFKOqeFIKmYogrA"
+TOKEN = "7790991731:AAF4NHGm0BJCf08JTdBaUWKzwfs82_Y9Ecw"
 ADMIN_ID = 5978150981
-WEBHOOK_URL = "probable-sybilla-wwmahe-52df4f73.koyeb.app/"
+WEBHOOK_URL = "https://probable-sybilla-wwmahe-52df4f73.koyeb.app/"
 
 REQUIRED_CHANNEL = "@guruubka_wasmada"
 
