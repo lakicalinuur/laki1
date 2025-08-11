@@ -1396,8 +1396,13 @@ def set_child_bot_commands(child_bot_instance: telebot.TeleBot, service_type: st
         ]
     elif service_type == "stt":
         commands = [
-            BotCommand("start", "Get Started"),
-            BotCommand("lang", "Set File language")
+            BotCommand("start", "👋 Get Started"),
+        BotCommand("voice", "Choose a TTS different voice"),
+        BotCommand("pitch", "Change TTS voice pitch"),
+        BotCommand("rate", "Change TTS voice speed"),
+        BotCommand("lang", "Set STT File language"),
+        #BotCommand("reg", "Create your own bot"),
+        BotCommand("help", "❓Get How to use info"),
         ]
     try:
         child_bot_instance.set_my_commands(commands)
